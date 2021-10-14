@@ -26,7 +26,7 @@ primary_key = pulumi.Output.all(resource_group.name, account.name) \
 
 workspace = dbx.Workspace("workspace",
     location="westus",
-    managed_resource_group_id="/subscriptions/167ab168-84f9-43c4-b197-8bfbf27bf6d1/resourceGroups/pulumi_databricks_managed_resource_group",
+    managed_resource_group_id="/subscriptions/[subscriptionname]/resourceGroups/pulumi_databricks_managed_resource_group",
     parameters=dbx.WorkspaceCustomParametersArgs(
         prepare_encryption=dbx.WorkspaceCustomBooleanParameterArgs(
             value=True,
