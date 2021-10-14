@@ -11,5 +11,7 @@ Make sure the following python packages are installed:
 1. pulumi>=3.0.0,<4.0.0
 2. pulumi-azure-native>=1.0.0,<2.0.0
 
+In __main__.py populate the subscription id accordingly
+
 Run "pulumi up" in a termincal that is in the correct folder
 
