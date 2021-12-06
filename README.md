@@ -1,6 +1,6 @@
 # pulumi-and-databricks
 
-This repo is a basic example of creating an Azure Reource Group and Databricks workspace using Palumi
+This repo is a basic example of creating an Azure Reource Group and Databricks workspace using Pulumi
 
 To get started download the Pulumi cli https://www.pulumi.com/docs/get-started/install/
 
